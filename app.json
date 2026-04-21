@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Peptora",
+    "slug": "peptora",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a2535"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "app.peptora.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#00d68f"
+      },
+      "package": "app.peptora.mobile"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "scheme": "peptora",
+    "extra": {
+      "eas": {
+        "projectId": "replace-with-expo-project-id"
+      }
+    }
+  }
+}
